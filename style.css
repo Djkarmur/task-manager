@@ -1,0 +1,120 @@
+body{
+    background-color: #E8F3FE;
+   
+}
+.input-task{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width:20%;
+    background-color: #fff;
+    box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    -moz-box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    color:#003979;
+    margin-bottom: 15px;
+    
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    color:#003979;
+}
+
+#title,#desc,#date{
+    width:80%;
+    color:#003979;
+    border:1px solid #003979;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+textarea{
+    resize: none;
+    height: 80px;
+}
+ 
+textarea:focus{
+    outline-color: #003979;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 2px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+input:focus{
+    outline-color: #003979;
+}
+
+
+.newtask{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    -moz-box-shadow: 4px -3px 31px -4px rgba(0,0,0,0.41);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.newtask p{
+ margin-right: 950px;
+}
+
+
+
+.completed,.deleted{
+    border: none;
+    border-radius: 5px;
+    margin-left:10px;
+    align-self: flex-end;
+    padding: 10px;
+}
+.deleted{
+    background-color: #D60707;
+    color:#fff;
+    transition: 0.5s;
+}
+.taskComplete{
+    background-color: rgb(45, 179, 45);
+    text-decoration: line-through;
+}
+#create{
+    background-color:darkgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.deleted:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.completed{
+    background-color: #003979;
+    color:#fff;
+    transition: 0.5s;
+}
+
+.completed:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
